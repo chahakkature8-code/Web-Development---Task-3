@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 3 Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Advanced Styling & JavaScript</h1>
+</header>
+
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Quiz</li>
+        <li>API</li>
+    </ul>
+</nav>
+
+<section class="quiz-container">
+    <h2>Quiz App</h2>
+    <p id="question"></p>
+
+    <button id="A" onclick="checkAnswer('A')"></button>
+    <button id="B" onclick="checkAnswer('B')"></button>
+    <button id="C" onclick="checkAnswer('C')"></button>
+
+    <p id="result"></p>
+</section>
+
+<section class="api-container">
+    <h2>Random Joke Generator</h2>
+
+    <button onclick="getJoke()">
+        Get Joke
+    </button>
+
+    <p id="joke"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
